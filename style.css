@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    cursor:0;
+}
+
+body{background-color: black;
+color: grey;}
+
+/*( ( ( PRESISTENT AND PRELOADS ) ) ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+.PRESISTENT{}
+
+*/
+    #preloader{
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display:none;
+    }
+
+    .bar{position:absolute;
+        width: 100vw; 
+        height: 1vh; 
+        background-color: white; 
+        z-index: 100;
+        display: show;
+        opacity: 1;
+        transition: height 0.5s ease;}
+    
+        .bar:hover{height: 6vh;}
+    
+
+    #site_version {position: relative;
+        margin: 10px;
+        padding: 10px;
+        color: black;}
+        #site_version a{text-decoration: none;}
+
+  
+/*( ( ( MASTERCLASS ) ) ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+    .CONTENT{}
+
+*/
+
+/* ( Home ) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+.Home_container{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: show; 
+    gap: 12px;
+}
+
+/*Main*/
+#main{position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);}
+
+
+#m_letter{font-size: 400px;
+position: absolute;
+transform: translate(-80%, -60%);}
+
+#m_links{transform: translate(-240%, 80%);}
+#m_links li{margin: 5px;}
+#m_links a {text-decoration: none; color: lightcoral; transition: font-size 0.2s linear}
+#m_links a:hover{font-size: 18px; color: aliceblue;}
+
+#m_location{font-size: 30px; transform: translateY(-40%);}
+
+/*Status*/
+
+#status{border: 2px solid white; 
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    transform: translateX(70%);
+    height: 50vh; 
+    width: 40vh;
+    overflow-y: auto;}
+
+    #status h1{
+background-color: white;
+text-align: center;}
+
+#status h3{background-color: lightgray; text-align: center;}
+
+#status p{padding: 10px;margin-bottom: 3px;}
+
+#status ul{padding: 12px;}
+
+ /* ( About )  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+ .About_container{
+    position: absolute;
+    z-index: 0;
+    height: 60vh;
+    width: 40vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; 
+    gap: 12px;
+}
+
+#a_box{border: 2px solid white;
+height: 100%;}
+
+#a_menu{border: 5px solid red;
+position: relative;
+top: 0%;
+left:50%;
+transform: translate(-50%);
+height: 10%;
+width: 92%;
+margin-top: 0.5cm; 
+}
