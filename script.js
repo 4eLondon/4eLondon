@@ -20,6 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
         cursor.style.transform = 'translate(-50%, -50%) scale(0.7)';
         cursorTrailer.style.transform = 'translate(-50%, -50%) scale(1.2)';
     });
+
+    window.addEventListener("load", () => {
+        const preloader = document.getElementById("preloader");
+        setTimeout(() => {
+            preloader.classList.add("hidden"); // Add the 'hidden' class to fade out
+        }, 2000); // Set duration (e.g., 2000ms = 2 seconds)
+    });
     
     document.addEventListener('mouseup', function() {
         cursor.style.transform = 'translate(-50%, -50%) scale(1)';
