@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    cursor:0;
+    cursor:none;
 }
 
 body{background-color: black;
@@ -21,6 +21,7 @@ color: grey;}
         display:none;
     }
 
+    /*header and footer bars*/
     .bar{position:absolute;
         width: 100vw; 
         height: 1vh; 
@@ -32,12 +33,38 @@ color: grey;}
     
         .bar:hover{height: 6vh;}
     
-
+/*side version*/
     #site_version {position: relative;
         margin: 10px;
         padding: 10px;
         color: black;}
         #site_version a{text-decoration: none;}
+
+        /*Cursor*/
+        .cursor {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            transition: width 0.3s, height 0.3s, background-color 0.3s;
+            z-index: 100;
+        }
+        
+        .cursor-trailer {
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            border: 2px solid #969696;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            opacity: 0.5;
+            transition: width 0.5s, height 0.5s, opacity 0.5s;
+            z-index: 100;
+        }
 
   
 /*( ( ( MASTERCLASS ) ) ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
