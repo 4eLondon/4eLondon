@@ -21,13 +21,20 @@ document.addEventListener('DOMContentLoaded', function() {
         cursorTrailer.style.transform = 'translate(-50%, -50%) scale(1.2)';
     });
 
+
+    /* - - - - PRELOAD - - - -*/ 
     window.addEventListener("load", () => {
         const preloader = document.getElementById("preloader");
+        const customCursor = document.getElementById("cus_cur");
+    
         setTimeout(() => {
-            preloader.classList.add("hidden"); // Add the 'hidden' class to fade out
-        }, 2000); // Set duration (e.g., 2000ms = 2 seconds)
+            preloader.classList.add("hidden"); // Fade out the preloader
+            customCursor.classList.add("visible"); // Fade in the custom cursor
+        }, 5000); // Set duration (e.g., 2000ms = 2 seconds)
     });
     
+
+    /**/
     document.addEventListener('mouseup', function() {
         cursor.style.transform = 'translate(-50%, -50%) scale(1)';
         cursorTrailer.style.transform = 'translate(-50%, -50%) scale(1)';
