@@ -10,7 +10,7 @@
 ```
 
 
-<img src="banner.jpg" alt="banner" width="100%"/>
+<img src="banner.jpg" alt="banner" width="100%" height="30%"/>
 *Amoungst the weakest of thy children*
 
 ---
