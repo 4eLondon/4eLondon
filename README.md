@@ -11,7 +11,7 @@
 
 
 <img src="banner.jpg" alt="banner" width="100%"/>
-*Amoungst the weakest of thy children*
+*Amongst the weakest of thy children*
 
 ---
 
